@@ -319,7 +319,7 @@ pub fn method(method: String) -> Attribute(msg) {
 
 ///
 pub fn novalidate(value: Bool) -> Attribute(msg) {
-  property("novalidate", value)
+  property("noValidate", value)
 }
 
 ///
@@ -339,7 +339,7 @@ pub fn form_method(method: String) -> Attribute(msg) {
 
 ///
 pub fn form_novalidate(value: Bool) -> Attribute(msg) {
-  property("formnovalidate", value)
+  property("formNoValidate", value)
 }
 
 ///
